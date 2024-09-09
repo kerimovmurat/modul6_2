@@ -1,6 +1,6 @@
 class Vehicle:
     __COLOR_VARIANTS = ["red", "blue", "black", "white", "green"] # текущие цвета
-    def __init__(self, owner:str, __model:str, __color:str, __engine_power:int):
+    def __init__(self, owner:str, model:str,color:str, engine_power:int):
         self.owner = owner #
         self.__model = model #
         self.__color = color
